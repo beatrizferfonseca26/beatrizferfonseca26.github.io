@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz Fonseca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<style>
+  /*inicio do css*/
+  body {
+    padding-top: 70px;
+    background-color: #f5ebe0; /*alterar cor de fundo da página*/
+  }
+   .col{
+    text-align: justify; /*alinhar textos com formatação justificada*/
+    padding: 20px;
+    color: #000000; /*cor do texto*/
+   }
+   .navbar {
+    color: #000000; /*cor do texto na barra de navegação*/
+    background-color: #e3d5ca; /*alterar cor na barra de navegação, criar um contraste e facilitar a visualização da navbar*/
+   }
+   #imagemredonda { /*configurações sobre a imagem redonda da desenvolvedora presente na página*/
+    padding: 1rem;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #E3D5CA;
+}
+   #rodape{ /*alteração e especificações do footer da página, alteração de cor para facilitar a visualização de onde termina a página*/
+    padding: 1rem;
+    background-color:#E3D5CA;
+    text-align: center; /*posicionamento cenral do texto dentro do conteiner*/
+    color: #000000; /*cor do texto*/
+
+   }
+</style>
+<body>
+   <header> <!--inicio do cabeçalho da página, composto pela barra de navegação, que permanece fixa no decorrer da página e preenche toda a largura da página, independente do tamanho do ecrã-->
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand">Beatriz Fonseca</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#navbarNavAltMarkup" tabindex="0">Home</a> <!--foi adicionado a tag tabindex para permitir a navegação por teclado, parâmetro 0 para seguir ordem da própria página-->
+              <a class="nav-link" href="#imagemredonda"  tabindex="0">Sobre mim</a>
+              <a class="nav-link" href="#cardaqui"  tabindex="0">Cards</a>
+              <a class="nav-link" href="#video"  tabindex="0">Vídeo</a>
+              <a class="nav-link" href="#rodape"  tabindex="0">Contato</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+   </header>
+
+   <main> <!--inicio da main, meio e parte central da página-->
+    <div class="container-fluid">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col"> <!--adicionado duas colunas lado a lado para imagem e texto sobre a desenvolvedora, e coluna com carrossel com botões-->
+            <img src="beatriz.jpg"  alt="foto mulher"  id="imagemredonda" title="foto da desenvolvedora da página">
+            <br><br><br><br><br><br><br>
+            <h1 style="text-align: center;">Sobre mim</h1>
+            <p>Olá, sou Beatriz Fonseca, tenho 28 anos, sou casada há 9 anos e tenho dois filhos lindos, Liz com 8 anos e Joaquim com 4 anos. Tenho formação em Técnica Eletrotécnica, cursei quase 3 anos de Engenharia Elétrica na Universidade Salvador; meu primeiro emprego formal foi como Jovem Aprendiz na empresa Ford Motor Company Brasil, depois de 1 ano e 8 meses de fui contratada como Técnica de Manutenção de Máquinas industriais; amei trabalhar com a Ford, integrei uma equipa e que tenho contacto até os dias de hoje, mesmo depois de 4 anos depois. Depois de algumas experiências no mercado de trabalho, decidir me dedicar á área da programação, hoje estou em formação para Técnico Especialista em Tecnologias e Programação de Sistemas de Informaçã, no IEFP Braga.</p>
+            <p>Em 2021 eu e minha família decidimos viver em Portugal, acredito na imigração mesmo com uma criança de 5 anos e um bebê de 6 meses. Escolhemos este país por acreditar ser um local tranquilo para criar nossos filhos, e hoje sou muito feliz com essa escolha. Aprecio a cultura portuguesa e não deixo de honrar a minha própria cultura. 
+              Acredito que minha principal característica pessoal é ser mãe, viver para acolher. Mas não deixo de valorizar meus momentos, amo meditar e praticar Yoga.</p><p> Gosto de leitura, meu livro favorito é A Casa das Orquídeas da autoria de Lucinda Riley; literatura brasileira aprecio o romance de Machado de Assis, Memórias Póstumas de Bras Cubas e Capitães de Areia, de Jorge Amado. 
+              Sou apaixonada por plantas, tenho muito gosto em cuidar. Minha flor preferida é o girassol, é uma costume familiar presentear com um buquê de girassol em datas especiais. Minha cor preferida é lilás, tenho muitos itens pessoais nessa cor. Separei nesta página alguns pontos que me fazem ser eu. Espero que aprecie.</p>
+          </div>
+          <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="girassol.jpeg" class="d-block w-100" alt="flores na cor amarela" title="girassol, flor preferida">
+                </div>
+                <div class="carousel-item">
+                  <img src="yoga.jpeg" class="d-block w-100" alt="imagem de yoga" title="pratica de yoga">
+                </div>
+                <div class="carousel-item">
+                  <img src="skin.jpeg" class="d-block w-100" alt="produtos de beleza" title="rotina de cuidados diários">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  tabindex="0" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  tabindex="0" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="cardaqui">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col"> <!--area de cards com fotos e descrições, foi dividido em quatro coluna, sobrepostas duas a duas. utilizado a tag card com imagem e texto-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="filhos.jpeg" class="img-fluid rounded-start" alt="imagem crianca no halloween" title="imagem de crianças no halloween"  tabindex="0">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Filhos</h5>
+                    <p class="card-text">A relação entre mãe e filhos é um dos laços mais profundos e emocionates da vida. É um vínculo que nasce no instante em que uma nova vida é sentida, cresce a cada sorriso, lágrima, conquista e momento partilhado.</p>
+                   
+                    <p class="card-text"><small class="text-body-secondary">Liz e Joaquim</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="gato.jpg" class="img-fluid rounded-start" alt="gato" title="gato" tabindex="0">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Gatinho</h5>
+                    <p class="card-text">Félix foi encontrado perdido e assustado no estacionamento do Shopping Braga Parque, resolvemos adotá-lo no mesmo momento em que foi encontrado. Um gato dócil, muito carinhoso e curioso. Ama dormir na cama junto com minha filha, Liz.</p>
+                    <p class="card-text"><small class="text-body-secondary">Félix</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">  <!--area de cards com fotos e descrições, foi dividido em quatro coluna, sobrepostas duas a duas. utilizado a tag card com imagem e texto-->
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="familia.jpeg" class="img-fluid rounded-start" alt="familia de quatro pessoas" title="familia em passeio de natal"  tabindex="0">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Família</h5>
+                    <p class="card-text">A relação familiar é um elo que conecta pessoas por meio do amor genuíno, respeito e cuidado mútuo. É no meio familiar que acontecem as primeiras lições de convivência, valores e empatia, formando os alicerces que nos sustentam ao longo da jornada.</p>
+                    <p class="card-text"><small class="text-body-secondary">Passeio de Natal em Barcelos</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="sicilia.jpeg" class="img-fluid rounded-start" alt="mistura de imagens, sicilia" tabindex="0" title="imagens sobrepostas sobre a sicília, itália">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Próxima viagem</h5>
+                    <p class="card-text">A maior ilha do Mediterrâneo é um destino que encanta não apenas pela sua paisagem natural, mas também por sua rica herança cultura, resultado da fusão de civilizações como gregos, romanos, árabes e normandos.</p>
+                    <p class="card-text"><small class="text-body-secondary">Sicília - Itália</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container text-center"> <!--conteiner que contem duas colunas, uma com video e outra ao lado para texto breve e objetivo sobre o conteúdo do video. o video possui legendas e foi adcionado utilizando a tag iframe-->
+        <div class="row">
+          <div class="col" id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9_lCI5LDOqo?si=jrV9-0_TUzezF8G5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="col">
+            <h1>Salvador</h1>
+            <p>Salvador, a capital do estado da Bahia, no Brasil, é uma cidade rica em história, cultura e beleza natural. Fundada em 1549, Salvador foi a primeira capital do Brasil e é considerada o berço da cultura afro-brasileira. Com suas ruas de paralelepípedos e casarões coloniais, o Pelourinho, centro histórico da cidade e Patrimônio Mundial da UNESCO, é um símbolo vivo das marcas do passado colonial português e da herança africana, infelizmente marcado por escravidão e vítimas.</p>
+            <p>O passado triste não mancha as belezas naturais existentes na cidade; por exemplo a Baía de Todos os Santos, uma das maiores baías do planeta, é ideal para passeios de barco e esportes aquáticos e abriga um dos maiores portos marítimos da América Latina. Além disso, Salvador é uma cidade de fé e tradição. Igrejas como a Igreja do Bonfim e a Basílica de Nossa Senhora da Conceição da Praia são marcos religiosos importantes. As celebrações sincréticas, como a Lavagem do Bonfim e o Dia de Iemanjá, misturam elementos do catolicismo com as religiões afro-brasileiras, como o candomblé. Com sua mistura única de tradição, modernidade e natureza exuberante, Salvador é um destino vibrante e acolhedor, que oferece uma experiência inesquecível a todos que a visitam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="elevador.jpeg" height="420px" class="card-img-top" alt="ponto turistico" title="elevador lacerda" tabindex="0">
+              <div class="card-body">
+                <p class="card-text">Elevador Lacerda</p>
+                <p>Primeiro elevador urbano do mundo! A primeira torre foi inaugurada em 8 de dezembro de 1873. Faz a ligação entre cidade alta e cidade baixa. Tem visão panorâmica para a Baía de Todos os Santos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="farol.jpeg" height="420px" class="card-img-top" alt="ponto turistico" title="farol da barra" tabindex="0">
+              <div class="card-body">
+                <p class="card-text">Farol da Barra</p>
+                <p>Foi o primeiro sistema de sinalização naútica a entrar em operação nas Américas. Instalado em 1698, foi construído em posição estratégica para defesa na baía que está localizado. Atualmente abriga o Museu náutico da Bahia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;"> <!--conteiner que contem mais 3 cards com descrição e breve texto sobre o conteudo das iamgens; as imagens estao relacionadas ao video do conteiner anterior-->
+              <img src="mam.jpeg" height="420px" class="card-img-top" alt="ponto turistico" title="mam" tabindex="0">
+              <div class="card-body">
+                <p class="card-text">Vista do Museu de Arte Moderna da Bahia</p>
+                <p>As margens da Baía de Todos os Santos, inaugurado em 1960. Seu acervo é constituído por pinturas, esculturas, fotografias e desenhos de artistas como Tarsila do Amaral, Portinari, Carybé e outros renomados artitas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </main>
+  
+   <footer id="rodape"> <!--ultimo conteiner da página, contem o footer com informações e dois links sobre a desenvolvedora (página pessoal do github e email)-->
+    <div class="container-fluid">
+      <div class="sticky-bottom">
+        <p>Beatriz Fonseca </p>
+        <p><a tabindex="0" href="https://workspace.google.com/intl/pt-PT/gmail/">beatrizferfonseca@gmail.com</a></p>
+        <p> <a tabindex="0" href="https://github.com/beatrizferfonseca26">GitHub</a></p>
+      </div>
+    </div>
+   </footer>
+   <!--area de javascript com links do bootstrap que permitem manter a página com design responsivo e fluido-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
