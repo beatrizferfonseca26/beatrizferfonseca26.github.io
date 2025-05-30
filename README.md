@@ -1,2 +1,3 @@
 # Primeira pagina Web
-No ambito de formacao foi solicitada criacao de pagina para demonstrar habilidade basicas. 
+No ambito de formacao foi solicitada criacao de pagina para demonstrar habilidades basicas. 
+
